@@ -1,0 +1,72 @@
+@media (min-width: 400px) {
+	#conversation{	
+		height: 300px;
+		border: 1px solid #ccc;		
+		padding: 4px; 
+		overflow-y: scroll;	
+	}
+	.chat_window_desc{
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 1000px) {
+	#conversation{	
+		height: 300px;
+		border: 1px solid #ccc;		
+		padding: 4px; 
+		overflow-y: scroll;	
+	}
+	.chat_window_desc{
+		font-size: 14px;
+	}
+}
+
+
+
+
+input#chatInput {
+	padding: 4px;
+	/* font-size: 1em; */
+	
+}
+
+input::placeholder {
+	color: black;
+	font-style: italic;
+}
+
+p.userRequest {
+	margin: 4px;
+	padding: 4px 10px 4px 10px;
+	border-radius: 4px;	
+	float: left;
+	color: #efefef;
+	background-color: #E74C3C;
+}
+
+p.lexResponse {
+	margin: 4px;
+	padding: 4px 10px 4px 10px;
+	border-radius: 4px;
+	text-align: right;	
+	float: right;
+	color: #212121;
+	background-color: #efefef;
+	font-style: italic;
+}
+
+p.lexError {
+	margin: 4px;
+	padding: 4px 10px 4px 10px;
+	border-radius: 4px;
+	text-align: right;
+	
+	float: right;
+	background-color: #f77;
+}
+
+.logo_img{
+	border-radius: 50%;
+	height: 60px;	
+}
